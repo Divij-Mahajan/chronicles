@@ -24,14 +24,25 @@
   flex-direction: column;
   justify-content: center;
   color: aliceblue;
-  height: 400px;
+  height: 450px;
+  position: relative;
 }
 
+.hero img{
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-right: 50px;
+    z-index: 0;
+    height: 26rem;
+    width: 26rem; 
+}
 
 .hero h1 {
   color: var(--lightBlue);
+  margin-top: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 100px;
+  font-size: 120px;
   margin: 0;
   padding: 0;
 }

@@ -1,0 +1,13 @@
+.preview-image {
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--darkBlue);
+}
+
+.preview-div {
+    
+    background: linear-gradient(to bottom, var(--darkBlue) 50%, var(--lightBlue) 50%);
+    border-top: solid var(--darkBlue) 1px;
+
+}
+
