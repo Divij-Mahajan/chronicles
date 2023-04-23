@@ -2,6 +2,7 @@ import './App.css'
 import { push, get, onChildAdded, onValue, ref, set } from "firebase/database";
 import { database } from "./../firebaseConfig.js";
 import Hero from './hero';
+import Preview from './components/Home/preview';
 
 
 
@@ -12,11 +13,9 @@ function App() {
   }
   return (
     <div>
-      <Hero
-        h1="CHRONICLES"
-        h2=""
-      />
-      <button onClick={handleSubmit}>Submit</button>
+      <Hero/>
+      <Preview/>
+      {/* <button onClick={handleSubmit}>Submit</button> */}
     </div>
   )
 }

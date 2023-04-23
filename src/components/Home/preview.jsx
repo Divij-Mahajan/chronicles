@@ -1,11 +1,15 @@
-function Preview(props) {
+import "./home.css"
+import Laptop from "./laptopScreen";
+function Preview() {
     return (
-        <div className="preview-div">
-            {props.video ? (
-                <video className="preview-video" src={video} controls />
-            ) : (
-                <img className="preview-image" src={"./tree.png"} alt={"image"} />
-            )}
+        <div className="preview">
+            <Laptop image="./screenshot.png" />
+            <Laptop image="./screenshot.png" />
+            <div className="createView">
+
+            <h2>Create in Chrome extension </h2>
+            <h2>View in Chrome Platform</h2>
+            </div>
         </div>
     )
 }

@@ -3,13 +3,14 @@ function Header() {
         <header>
             <a href="/">
             <div className="header-left">
-
-                <img alt="Logo" />
                 <h1>Chronicles</h1>
             </div>
             </a>
             <nav className="header-right">
                 <ul>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
                     <li>
                         <a href="/signup"><button>Sign Up</button></a>
                     </li>

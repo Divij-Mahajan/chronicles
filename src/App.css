@@ -4,9 +4,9 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  --darkBlue: #4F542F;
-  --black: #2E311B;
-  --lightBlue: #BCBD8B;
+  --darkBlue: #3E4C98;
+  --black: #222222;
+  --lightBlue: #E1E6ED;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,39 +16,61 @@
 }
 
 .hero {
-  background-color: var(--darkBlue);
-  margin: 0px;
-  padding: 20px;
-  border: 0px;
+  background-color: white;
+  margin: 2rem;
+  padding: 5rem;
+  padding-top: 7rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   color: aliceblue;
   height: 450px;
   position: relative;
+  gap: 1rem;
+}
+.hero .circle {
+  width: 10rem;
+  position: absolute;
+  top: 0;
+  left: -7rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #F57C7C;
 }
 
-.hero img{
-    position: absolute;
-    bottom:0;
-    right:0;
-    margin-right: 50px;
-    z-index: 0;
-    height: 26rem;
-    width: 26rem; 
+.hero button {
+  background-color: var(--darkBlue);
+  color: white;
+  width: 180px;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
 }
-
+.hero button:hover {
+  background-color: var(--lightBlue);
+  color: var(--black);
+}
 .hero h1 {
-  color: var(--lightBlue);
-  margin-top: 50px;
+  color: var(--black);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 120px;
+  font-size: 70px;
   margin: 0;
   padding: 0;
 }
 
 .hero h2 {
+  color: var(--black);
   margin: 0;
   padding: 0;
-  font-size: 50px;
+  font-size: 30px;
+}
+#h21{
+  color: #666666;
+}
+#h22{
+  color: #444444;
 }

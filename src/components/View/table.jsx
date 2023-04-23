@@ -25,6 +25,30 @@ const data = [
     labels: ['Fantasy', 'Adventure'],
     tags: ['Tolkien', 'Middle-earth'],
   },
+  {
+    id: 1,
+    chronicle: 'The Hobbit',
+    web: 'http://www.thehobbit.com',
+    date: '1937-09-21',
+    labels: ['Fantasy', 'Adventure'],
+    tags: ['Tolkien', 'Middle-earth'],
+  },
+  {
+    id: 2,
+    chronicle: 'Harry Potter and the Philosopher\'s Stone',
+    web: 'http://www.harrypotter.com',
+    date: '1997-06-26',
+    labels: ['Fantasy', 'Young adult'],
+    tags: ['Rowling', 'Hogwarts'],
+  },
+  {
+    id: 3,
+    chronicle: 'The Lord of the Rings',
+    web: 'http://www.lordoftherings.com',
+    date: '1954-07-29',
+    labels: ['Fantasy', 'Adventure'],
+    tags: ['Tolkien', 'Middle-earth'],
+  },
 ];
 
 function Table() {

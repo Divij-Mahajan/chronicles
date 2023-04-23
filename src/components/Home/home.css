@@ -1,13 +1,44 @@
-.preview-image {
-    
-    border-radius: 10px;
-    box-shadow: 0 0 10px var(--darkBlue);
+.laptopBody{
+    background-color: black;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    box-shadow: 0 0 15px rgba(0, 1, 7, 0.2);
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+.line {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-top: 15px;
+  }
+  
+.laptopScreen{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 35rem;
+padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.laptopScreen  img{
+    /* height: 37rem;
+    width: 60rem; */
+    margin: 0;
+    top:-23px;
+    left:-24px;
+    position: absolute;
+    width: 70rem;
+    height: 38rem;
 }
 
-.preview-div {
-    
-    background: linear-gradient(to bottom, var(--darkBlue) 50%, var(--lightBlue) 50%);
-    border-top: solid var(--darkBlue) 1px;
+.createView{
+    background-color: white;
+    color: black;
+    width: 25rem;
 
 }
-
